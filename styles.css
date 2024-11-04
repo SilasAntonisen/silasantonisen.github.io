@@ -1,0 +1,184 @@
+:root {
+    --bg-light: #f5f5f5;
+    --text-light: #000000;
+    --bg-dark: #1a1a1a;
+    --text-dark: #ffffff;
+    --card-bg-light: #ffffff;
+    --card-bg-dark: #2a2a2a;
+    --primary-color: #3b82f6;
+    --secondary-color: #10b981;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-light);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: var(--bg-dark);
+    color: var(--text-dark);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.dark-mode-toggle {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
+#darkModeToggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: var(--text-light);
+}
+
+.dark-mode #darkModeToggle {
+    color: var(--text-dark);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .content {
+        flex-direction: row;
+    }
+}
+
+.profile {
+    flex: 1;
+    text-align: center;
+}
+
+.profile-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.profile h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.profile .title {
+    font-size: 1.25rem;
+    color: #666;
+    margin-bottom: 0.25rem;
+}
+
+.profile .subtitle {
+    font-size: 1rem;
+    color: #888;
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
+.social-links a {
+    color: var(--text-light);
+    text-decoration: none;
+}
+
+.dark-mode .social-links a {
+    color: var(--text-dark);
+}
+
+.details {
+    flex: 2;
+}
+
+.card {
+    background-color: var(--card-bg-light);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode .card {
+    background-color: var(--card-bg-dark);
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.download-cv {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+ul {
+    padding-left: 1.5rem;
+}
+
+.paper h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.paper-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.875rem;
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silas Antonisen - Research Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        /* Custom spacing control */
+        .profile-image {
+            margin-bottom: 5px; /* Adjust space below the profile image */
+        }
+        h1 {
+            margin: 0; /* Remove all margins around h1 */
+            padding-bottom: 0px; /* Add custom space below the h1 */
+        }
+        .title {
+            margin: 0; /* Remove all margins around the title */
+            padding-bottom: 0px; /* Add custom space below the title */
+        }
+        .subtitle {
+            margin: 0; /* Remove all margins around the subtitle */
+            padding-top: 0px; /* Add custom space above the subtitle */
+            padding-bottom: 0px; /* Add space below the subtitle */
+        }
+        .social-links {
+            margin-top: 30px; /* Add custom space above the social links */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <main>
+            <div class="dark-mode-toggle">
+                <button id="darkModeToggle" aria-label="Toggle dark mode">
+                    <i data-lucide="moon"></i>
+                </button>
+            </div>
+            <div class="content">
+                <div class="profile">
+                    <img src="files/profile.png" alt="Silas Antonisen" class="profile-image">
+                    <h1>Silas Antonisen</h1>
+                    <p class="title">Academic Researcher & PhD Student</p>
+                    <p class="subtitle">Universidad de Granada</p>
+                    <div class="social-links">
+                        <a href="https://github.com/SilasAntonisen" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i data-lucide="github" style="width: 48px; height: 48px;"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/silasantonisen" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i data-lucide="linkedin" style="width: 48px; height: 48px;"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="details">
+                    <div class="card">
+                        <h2>About Me</h2>
+                        <p>I am a PhD student and academic researcher at the University of Granada. My research focuses on music information retrieval (MIR) and computational linguistics, with a particular emphasis on automatic lyrics transcription, lyrics translation, and singing voice synthesis. My goal is to develop a system enabling singers to perform in languages they do not speak through a process I term singing-voice-to-singing-voice translation (SV2SVT).</p>
+                        <a href="files/CV.pdf" download="CV.pdf">
+                            <button class="download-cv">Download CV</button>
+                        </a>
+                    </div>
+                    <div class="grid">
+                        <div class="card">
+                            <h2>Interests</h2>
+                            <ul>
+                                <li>Music Information Retrieval</li>
+                                <li>Computational Linguistics</li>
+                                <li>Singing Voice Synthesis</li>
+                                <li>Transcription and Translation</li>
+                                <li>Signal Processing</li>
+                            </ul>
+                        </div>
+                        <div class="card">
+                            <h2>Education</h2>
+                            <ul>
+                                <li>
+                                    <strong>PhD in Telecommunications Engineering</strong>
+                                    <p>Universidad de Granada (Current)</p>
+                                </li>
+                                <li>
+                                    <strong>MSc in Vision, Graphics and Interactive Systems</strong>
+                                    <p>Aalborg University (2021-2024)</p>
+                                </li>
+                                <li>
+                                    <strong>BSc in Robotics</strong>
+                                    <p>Aalborg University (2018-2021)</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h2>Publications</h2>
+                        <div class="paper">
+                            <h3>PolySinger: Singing-Voice to Singing-Voice Translation from English to Japanese (2024)</h3>
+                            <p>Silas Antonisen and Iván López-Espejo</p>
+                            <div class="paper-links">
+                                <a href="https://doi.org/10.48550/arXiv.2407.14399" target="_blank" rel="noopener noreferrer" class="button">
+                                    <i data-lucide="file-text"></i>
+                                    arXiv Preprint
+                                </a>
+                                <a href="https://silasantonisen.github.io/polysinger/" target="_blank" rel="noopener noreferrer" class="button">
+                                    <i data-lucide="globe"></i>
+                                    Project Page
+                                </a>
+                                <button id="toggleSummary" class="button">
+                                    <i data-lucide="chevron-down"></i>
+                                    <span>Show Summary</span>
+                                </button>
+                            </div>
+                            <p id="paperSummary" class="hidden">
+                                The speech domain prevails in the spotlight for several natural language processing (NLP) tasks while the singing domain remains less explored. The culmination of NLP is the speech-to-speech translation (S2ST) task, referring to translation and synthesis of human speech. A disparity between S2ST and the possible adaptation to the singing domain, which we describe as singing-voice to singing-voice translation (SV2SVT), is becoming prominent as the former is progressing ever faster, while the latter is at a standstill. Singing-voice synthesis systems are overcoming the barrier of multi-lingual synthesis, despite limited attention has been paid to multi-lingual songwriting and song translation. This paper endeavors to determine what is required for successful SV2SVT and proposes PolySinger (Polyglot Singer): the first system for SV2SVT, performing lyrics translation from English to Japanese. A cascaded approach is proposed to establish a framework with a high degree of control which can potentially diminish the disparity between SV2SVT and S2ST. The performance of PolySinger is evaluated by a mean opinion score test with native Japanese speakers. Results and in-depth discussions with test subjects suggest a solid foundation for SV2SVT, but several shortcomings must be overcome, which are discussed for the future of SV2SVT.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+Original: I've heard there was a secret chord
+          That David played, and it pleased the Lord
+          But you don't really care for music, do ya?
+          It goes like this, the fourth, the fifth
+          The minor fall, and the major lift
+          The baffled king composing Hallelujah
+
+Fine-Tuned: ダビデが弾いた秘密の和音神様に甘えて音楽なんていうか四番五番マイナーとメジャーなぞ惑う王がハレルヤ
+Baseline: ダビデが演奏した秘密の弦が神様に喜ばれると聞きましたがあなたは音楽を気にしていませんかそうですね

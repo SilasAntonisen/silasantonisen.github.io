@@ -1,0 +1,15 @@
+Original: When you were here before
+          Couldn't look you in the eye
+          You're just like an angel
+          Your skin makes me cry
+          You float like a feather
+          In a beautiful world
+          I wish I was special
+          You're so fuckin' special
+          But I'm a creep
+          I'm a weirdo
+          What the hell am I doin' here?
+          I don't belong here
+
+Fine-Tuned: 前に居た君は天使みたいだ君の肌が僕を泣かせる綺麗な世界で僕は特別だ君は特別だ俺は変だ何やってんだここには居場所はない
+Baseline: あなたがここにいたとき私はあなたの目を見ることができなかったあなたは天使のようにあなたの肌は私を泣かせて美しい世界の中で羽のように浮き沈

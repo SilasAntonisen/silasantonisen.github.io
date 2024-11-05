@@ -1,0 +1,9 @@
+Original: Wise men say
+          Only fools rush in
+          but I can't help falling in love with you
+          Shall I stay?
+          Would it be a sin?
+          If I can't help falling in love with you
+
+Fine-Tuned: 賢者は愚人だけ駆け寄るけど好きになっちゃうよ俺も残ろうか好きになっちゃうなら罪なのよ
+Baseline: 知恵ある者は愚か者だけが急いで来ると言いますが僕は君に恋するのを止められない

@@ -1,0 +1,8 @@
+Original: Don't try to make yourself remember, darling
+          Don’t look for me, I'm just a story you've been told
+          So let’s pretend a little longer
+          Cause when we're gone, everything goes on
+
+Fine-Tuned: 思い出さないでダーリン探さないで君に話された物語だからもう少し気取って居なくなって
+Baseline: 思い出させるなダーリン私を探さないで俺が君に話された話ださあ少しも
+
